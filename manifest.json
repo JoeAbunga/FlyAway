@@ -1,7 +1,7 @@
 {
-  "name": "Injecta",
-  "version": "0.0.1",
   "manifest_version": 2,
+  "name": "Destinations",
+  "version": "0.1",
   "description": "Injecting stuff",
   "homepage_url": "http://danharper.me",
   "background": {
@@ -11,12 +11,13 @@
     "persistent": true
   },
   "browser_action": {
-    "default_title": "Inject!",
+    "default_title": "Destinations",
     "default_icon": "icon.png"
   },
   "permissions": [
     "https://*/*",
     "http://*/*",
-    "tabs"
+    "tabs",
+	"activeTab"
   ]
 }
