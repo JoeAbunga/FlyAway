@@ -17,5 +17,11 @@
     "https://*/*",
     "http://*/*",
     "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*","<all_urls>"],
+      "js": ["inject2.js"]
+    }
   ]
 }
