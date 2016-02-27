@@ -3,7 +3,6 @@
   "version": "1",
   "manifest_version": 2,
   "description": "Finding locations of images and providing travel data",
-  "homepage_url": "gimgur.com",
   "background": {
     "scripts": [
       "background.js"
