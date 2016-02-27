@@ -1,17 +1,9 @@
 {
-<<<<<<< HEAD
-  "manifest_version": 2,
-  "name": "Destinations",
-  "version": "0.1",
-  "description": "Injecting stuff",
-  "homepage_url": "http://danharper.me",
-=======
   "name": "FlyAway",
   "version": "1",
   "manifest_version": 2,
   "description": "Finding locations of images and providing travel data",
   "homepage_url": "gimgur.com",
->>>>>>> origin/master
   "background": {
     "scripts": [
       "background.js"
@@ -19,17 +11,12 @@
     "persistent": true
   },
   "browser_action": {
-<<<<<<< HEAD
-    "default_title": "Destinations",
-=======
     "default_title": "Find Locations",
->>>>>>> origin/master
     "default_icon": "icon.png"
   },
   "permissions": [
     "https://*/*",
     "http://*/*",
-    "tabs",
-	"activeTab"
+    "tabs"
   ]
 }
