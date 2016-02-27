@@ -1,9 +1,9 @@
 {
-  "name": "Injecta",
-  "version": "0.0.1",
+  "name": "FlyAway",
+  "version": "1",
   "manifest_version": 2,
-  "description": "Injecting stuff",
-  "homepage_url": "http://danharper.me",
+  "description": "Finding locations of images and providing travel data",
+  "homepage_url": "gimgur.com",
   "background": {
     "scripts": [
       "background.js"
@@ -11,7 +11,7 @@
     "persistent": true
   },
   "browser_action": {
-    "default_title": "Inject!",
+    "default_title": "Find Locations",
     "default_icon": "icon.png"
   },
   "permissions": [
