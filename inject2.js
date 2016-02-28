@@ -13,6 +13,10 @@
         imgSrcs.push(imgs[i].src);
 		//imgs[i].src = "http://pixel.nymag.com/imgs/daily/intelligencer/2015/08/10/10-donald-trump-debate.w750.h560.2x.jpg";
         //alert("Test in the for loop");
+    imgs[i].addEventListener("mouseover", function (){
+      //  alert("Height: " + this.clientHeight + "\n" + "Width: "  +  this.clientWidth);
+            
+    },false)
     }
 //alert(JSON.stringify(imgSrcs));
 //alert(imgSrcs.join("\n"));
